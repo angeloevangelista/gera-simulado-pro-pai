@@ -43,7 +43,7 @@ function App() {
   }, [answers, questions]);
 
   const [passCriteria, setPassCriteria] = useState(
-    Number(localStorage.getItem("FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA")) || 0
+    Number(localStorage.getItem("GERA_O_SIMULADO_PRO_PAI_PASS_CRITERIA")) || 0
   );
 
   const handleStart = useCallback(() => {
@@ -61,7 +61,7 @@ function App() {
       setAnswers(newAnswers);
 
       localStorage.setItem(
-        "FAZ_O_SIMULADO_PRO_PAI_ANSWERS",
+        "GERA_O_SIMULADO_PRO_PAI_ANSWERS",
         JSON.stringify(newAnswers)
       );
     },
@@ -72,7 +72,7 @@ function App() {
     setAnswers({});
     setCurrentQuestionIndex(-1);
 
-    localStorage.removeItem("FAZ_O_SIMULADO_PRO_PAI_ANSWERS");
+    localStorage.removeItem("GERA_O_SIMULADO_PRO_PAI_ANSWERS");
   }, []);
 
   const handlePassCriteriaChange = useCallback(() => {
@@ -96,7 +96,7 @@ function App() {
     }
 
     localStorage.setItem(
-      "FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA",
+      "GERA_O_SIMULADO_PRO_PAI_PASS_CRITERIA",
       String(Number(newCriteria) / 100)
     );
     setPassCriteria(Number(newCriteria) / 100);
@@ -104,7 +104,7 @@ function App() {
 
   useEffect(() => {
     const existingAnswers = JSON.parse(
-      localStorage.getItem("FAZ_O_SIMULADO_PRO_PAI_ANSWERS") || "{}"
+      localStorage.getItem("GERA_O_SIMULADO_PRO_PAI_ANSWERS") || "{}"
     );
 
     if (Object.keys(existingAnswers).length > 0) {
@@ -112,8 +112,9 @@ function App() {
       setCurrentQuestionIndex(Number(Object.keys(existingAnswers)[0]));
     }
 
-    if (!localStorage.getItem("FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA")) {
-      localStorage.setItem("FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA", "0.8");
+    if (!localStorage.getItem("GERA_O_SIMULADO_PRO_PAI_PASS_CRITERIA")) {
+      localStorage.setItem("GERA_O_SIMULADO_PRO_PAI_PASS_CRITERIA", "0.8");
+      setPassCriteria(0.8);
     }
   }, [setAnswers]);
 
