@@ -81,7 +81,16 @@ const questions = rawQuestions.map(rawQuestion => {
     options,
     correctAnswer: correctOptionValue,
   };
-})
+}).reduce(
+  (acc, next) => {
+    if (!acc.find(p => p.statement === next.statement)) {
+      acc.push(next);
+    }
+
+    return acc;
+  },
+  [],
+);
 
 fs.writeFileSync(
   "/Users/angelo/www/gera-simulado-pro-pai/src/assets/parsed-questions.json",
