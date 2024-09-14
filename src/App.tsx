@@ -159,7 +159,7 @@ function App() {
                     onClick={handlePassCriteriaChange}
                     title={`You need ${passCriteria * 100}% to pass`}
                   >
-                    {(score / questions.length).toFixed(2)}
+                    {(score / questions.length * 100).toFixed(2)}
                   </strong>
                   <span>%</span>
                 </div>
