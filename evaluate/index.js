@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 const rawQuestions = fs
-  .readFileSync("/Users/angelo/www/gera-simulado-pro-pai/evaluate/questions.txt")
+  .readFileSync("/Users/angelo/www/gera-simulado-pro-pai/src/assets/raw-questions.txt")
   .toString()
   .trim()
   .split("/ 80")
@@ -84,6 +84,6 @@ const questions = rawQuestions.map(rawQuestion => {
 })
 
 fs.writeFileSync(
-  "/Users/angelo/www/gera-simulado-pro-pai/evaluate/questions.json",
+  "/Users/angelo/www/gera-simulado-pro-pai/src/assets/parsed-questions.json",
   JSON.stringify(questions, null, 2),
 )

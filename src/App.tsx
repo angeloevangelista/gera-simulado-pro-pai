@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-import questionsJson from "./assets/questions.json";
+import questionsJson from "./assets/parsed-questions.json";
 
 type Question = {
   statement: string;
@@ -22,7 +22,7 @@ function App() {
     number | undefined
   >();
 
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [showAnswers, setShowAnswers] = useState(false);
 
   const [answers, setAnswers] = useState<{ [key: number]: string }>({});
 
@@ -31,6 +31,20 @@ function App() {
 
     return questions[currentQuestionIndex];
   }, [currentQuestionIndex]);
+
+  const score = useMemo(() => {
+    return Object.entries(answers).reduce((acc, [index, answer]) => {
+      if (questions[Number(index)].correctAnswer === answer) {
+        acc++;
+      }
+
+      return acc;
+    }, 0);
+  }, [answers, questions]);
+
+  const [passCriteria, setPassCriteria] = useState(
+    Number(localStorage.getItem("FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA")) || 0
+  );
 
   const handleStart = useCallback(() => {
     setCurrentQuestionIndex(0);
@@ -61,6 +75,33 @@ function App() {
     localStorage.removeItem("FAZ_O_SIMULADO_PRO_PAI_ANSWERS");
   }, []);
 
+  const handlePassCriteriaChange = useCallback(() => {
+    let newCriteria = prompt(
+      `How much to pass?\n(Current is ${passCriteria * 100}%, I recommend 85%)`,
+      String(passCriteria * 100)
+    )?.trim();
+
+    if (!newCriteria) {
+      return;
+    }
+
+    if (newCriteria?.includes("%")) {
+      newCriteria = newCriteria.replace("%", "").trim();
+    }
+
+    if (isNaN(Number(newCriteria))) {
+      alert("You kidding, right?");
+      handlePassCriteriaChange();
+      return;
+    }
+
+    localStorage.setItem(
+      "FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA",
+      String(Number(newCriteria) / 100)
+    );
+    setPassCriteria(Number(newCriteria) / 100);
+  }, [passCriteria]);
+
   useEffect(() => {
     const existingAnswers = JSON.parse(
       localStorage.getItem("FAZ_O_SIMULADO_PRO_PAI_ANSWERS") || "{}"
@@ -69,6 +110,10 @@ function App() {
     if (Object.keys(existingAnswers).length > 0) {
       setAnswers(existingAnswers);
       setCurrentQuestionIndex(Number(Object.keys(existingAnswers)[0]));
+    }
+
+    if (!localStorage.getItem("FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA")) {
+      localStorage.setItem("FAZ_O_SIMULADO_PRO_PAI_PASS_CRITERIA", "0.8");
     }
   }, [setAnswers]);
 
@@ -89,15 +134,60 @@ function App() {
           <div
             style={{
               display: "flex",
-              justifyContent: "flex-end",
+              alignItems: "center",
+              justifyContent: "space-between",
               gap: "1rem",
               marginBottom: "2rem",
             }}
           >
-            <button onClick={handleReset}>Reset</button>
-            <button onClick={() => setShowAnswer(!showAnswer)}>
-              {showAnswer ? "Hide answers" : "Show answers"}
-            </button>
+            {showAnswers ? (
+              <div>
+                <div>
+                  <span>You got </span>
+                  <strong
+                    style={{
+                      fontSize: 24,
+                      padding: 4,
+                      borderBottom: "solid 1px",
+                      cursor: "pointer",
+                      color:
+                        score / questions.length >= passCriteria
+                          ? "#98e667"
+                          : "#dd5353",
+                    }}
+                    onClick={handlePassCriteriaChange}
+                    title={`You need ${passCriteria * 100}% to pass`}
+                  >
+                    {(score / questions.length).toFixed(2)}
+                  </strong>
+                  <span>%</span>
+                </div>
+                <span
+                  style={{
+                    display: "block",
+                    marginTop: 4,
+                    color: "#757575",
+                    fontSize: 14,
+                  }}
+                >
+                  ({score} out of {questions.length})
+                </span>
+              </div>
+            ) : (
+              <div />
+            )}
+
+            <div
+              style={{
+                display: "flex",
+                gap: "1rem",
+              }}
+            >
+              <button onClick={handleReset}>Reset</button>
+              <button onClick={() => setShowAnswers(!showAnswers)}>
+                {showAnswers ? "Hide answers" : "Show answers"}
+              </button>
+            </div>
           </div>
 
           <div>
@@ -139,7 +229,7 @@ function App() {
                       htmlFor={p.label}
                       style={{
                         padding: 4,
-                        ...(showAnswer &&
+                        ...(showAnswers &&
                         p.value === currentQuestion.correctAnswer
                           ? {
                               background: "#98e667",
@@ -148,7 +238,7 @@ function App() {
                               fontWeight: "bold",
                             }
                           : {}),
-                        ...(showAnswer &&
+                        ...(showAnswers &&
                         answers[currentQuestionIndex!] !== undefined &&
                         answers[currentQuestionIndex!] !==
                           currentQuestion.correctAnswer &&
@@ -165,7 +255,7 @@ function App() {
                     </label>
                   </div>
 
-                  {showAnswer && (
+                  {showAnswers && (
                     <span style={{ marginLeft: "2rem", color: "#757575" }}>
                       {p.explanation}
                     </span>
@@ -221,7 +311,7 @@ function App() {
                     ...(answers[index] && {
                       opacity: 0.25,
                     }),
-                    ...(showAnswer && {
+                    ...(showAnswers && {
                       background:
                         answers[index] !== questions[index].correctAnswer
                           ? "#dd5353"
