@@ -109,7 +109,11 @@ function App() {
 
     if (Object.keys(existingAnswers).length > 0) {
       setAnswers(existingAnswers);
-      setCurrentQuestionIndex(Number(Object.keys(existingAnswers)[0]));
+      setCurrentQuestionIndex(
+        Number(
+          Object.keys(existingAnswers)[Object.keys(existingAnswers).length - 1]
+        )
+      );
     }
 
     if (!localStorage.getItem("GERA_O_SIMULADO_PRO_PAI_PASS_CRITERIA")) {
@@ -159,7 +163,7 @@ function App() {
                     onClick={handlePassCriteriaChange}
                     title={`You need ${passCriteria * 100}% to pass`}
                   >
-                    {(score / questions.length * 100).toFixed(2)}
+                    {((score / questions.length) * 100).toFixed(2)}
                   </strong>
                   <span>%</span>
                 </div>
