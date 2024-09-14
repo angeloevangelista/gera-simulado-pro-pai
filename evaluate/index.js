@@ -28,7 +28,7 @@ const questions = rawQuestions.map(rawQuestion => {
         const [value, label] = next.split(") ");
 
         if (!label || value.length > 1) {
-          acc[acc.length - 1].label += next;
+          acc[acc.length - 1].label += " " + next;
 
           return acc;
         }
@@ -50,7 +50,7 @@ const questions = rawQuestions.map(rawQuestion => {
         const [value, explanationSegment] = next.split(") ");
 
         if (!explanationSegment || value.length > 1) {
-          acc[acc.length - 1].explanation += next;
+          acc[acc.length - 1].explanation += " " + next;
 
           return acc;
         }
