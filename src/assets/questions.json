@@ -1,0 +1,2042 @@
+[
+  {
+    "statement": "Which thought is false in Agile?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Business and development work together throughout the project.",
+        "explanation": "\"Business people and developers must work together daily on the project\" is part of theAgile Manifesto."
+      },
+      {
+        "value": "B",
+        "label": "Responding to change is valued over following a plan.",
+        "explanation": "Responding to change over following a plan is part of the Agile Manifesto."
+      },
+      {
+        "value": "C",
+        "label": "Satisfying the customer through exact fulfillment of their requirements is a priority.",
+        "explanation": "Satisfying customers through exact fulfillment of their requirements is not part of the AgileManifesto, and it is not an aim of Agile. (Literature: A, Chapter 1.1.1)"
+      },
+      {
+        "value": "D",
+        "label": "Working software is the primary measure of progress.",
+        "explanation": "Working software as the primary measure of progress is part of the Agile Manifesto."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "According to the US National Institute of Standards and Technology (NIST), what is not an essential cloud computing characteristic?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Broad network access",
+        "explanation": "Broad network access is one of the essential cloud computing characteristics mentioned bythe US NIST."
+      },
+      {
+        "value": "B",
+        "label": "Pay-per-use system",
+        "explanation": "The pay-per-use system is often used but is not one of the essential cloud computingcharacteristics mentioned by the US NIST. Other types of contracts are possible. (Literature: A,Chapter 1.1.2)"
+      },
+      {
+        "value": "C",
+        "label": "Rapid elasticity",
+        "explanation": "Rapid elasticity is one of the essential cloud computing characteristics mentioned by the USNIST."
+      },
+      {
+        "value": "D",
+        "label": "Resource pooling",
+        "explanation": "Resource pooling is one of the essential cloud computing characteristic mentioned by theUS NIST.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 15"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "When looking at the emergence of DevOps, new ways of interacting between parties involved in software development triggered a need for new ways of IT management. This resulted in DevOps. Which parties that found new ways to interact are meant?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Business and customers",
+        "explanation": "The business itself may have changed ways of interacting with their customers, but this didnot trigger DevOps per se. DevOps was triggered by the interaction between the IT department and thebusiness (customer)."
+      },
+      {
+        "value": "B",
+        "label": "IT departments and customers",
+        "explanation": "\"First, due to the emergence of new ways of interacting with the business customers, and tothe adequate application of Agile development techniques, a need for new ways of IT managementhas developed.\" New ways are required to interact with customers as per the changes in the marketand in the way people relate with their preferred brands, also adequate application of Agile techniquesimplies a better perceived return on Agile by the business (not just IT). (Literature: A, Chapter 1.1.3)"
+      },
+      {
+        "value": "C",
+        "label": "IT Development and Operations",
+        "explanation": "The interaction between internal IT areas is not what triggered the development of DevOps."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "DevOps relies heavily on the principles and practices of Lean Production. One of the types of waste in IT is 'task switching'. From which original type of waste is this the translation for IT?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Motion",
+        "explanation": "Handoffs in IT corresponds to motion in Lean."
+      },
+      {
+        "value": "B",
+        "label": "Overproduction",
+        "explanation": "Extra feature in IT corresponds to overproduction in Lean."
+      },
+      {
+        "value": "C",
+        "label": "Transportation",
+        "explanation": "Task switching in IT corresponds to transportation in Lean(Literature: A, Chapter 2.1.1)"
+      },
+      {
+        "value": "D",
+        "label": "Waiting",
+        "explanation": "Waiting in IT corresponds to waiting in Lean.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 16"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "The most valuable information of a value stream map is taken from three key metrics. What is one of these three key metrics?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Lead time combined with flow",
+        "explanation": "Lead time is a key metric, but flow is not a metricIt is a concept of velocity that can bemeasured by lead time and process time."
+      },
+      {
+        "value": "B",
+        "label": "Percentage complete and accurate",
+        "explanation": "Percent complete and accurate is a key metric of the value stream map that helps to gatherthe most valuable information. (Literature: A, Chapter 3.1)"
+      },
+      {
+        "value": "C",
+        "label": "Process time divided by lead time",
+        "explanation": "Process time and lead time are both key metrics, but the ratio between them is not a usefulmeasure."
+      },
+      {
+        "value": "D",
+        "label": "Value completed minus waste",
+        "explanation": "Value completed minus waste is not a metricBoth are DevOps concepts, though."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "When switching to DevOps, a greater return on information technology is expected. What differentiates DevOps from Agile, Scrum and Lean to meet this expectation?",
+    "options": [
+      {
+        "value": "A",
+        "label": "DevOps accelerates the delivery of new and modified products between Dev and Ops.",
+        "explanation": "Accelerating the delivery of products between departments is a consequence of DevOps.However, since it does not deliver value to the customer, it is not an expected value from DevOps toachieve greater return on IT."
+      },
+      {
+        "value": "B",
+        "label": "DevOps accelerates the delivery of new and modified products to the market and customers.",
+        "explanation": "This is how DevOps will produce greater return on IT; by accelerating the delivery of productsto customers in production, helping the business realize value faster and better. (Literature: A, Chapter1.2)"
+      },
+      {
+        "value": "C",
+        "label": "DevOps ensures a quicker response to changes in the infrastructure within budget.",
+        "explanation": "Changes to the infrastructure are an internal need from IT, also adherence to budgetThebusiness will not get greater returns on IT just from changing the infrastructure."
+      },
+      {
+        "value": "D",
+        "label": "DevOps ensures a quicker response to incidents that hinder the organization’s value stream.",
+        "explanation": "This is not a way to achieve greater return on ITEven though quicker responses willproduce a better user experience, it does not help to produce greater returns on its own.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 17"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "A company wants to reduce their time-to-market from years to months. One of their coworkers says they should consider using DevOps methods in the IT department. Why would changing to DevOps help reduce their time-to-market?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Because DevOps integrates Development and Operations into a single team, there are fewer peopleemployed.",
+        "explanation": "There are usually not fewer, but more people employed, because each product or productline has their own dedicated self-sufficient team of developers, operators and other specialists. Inaddition, the integration itself does not make DevOps a faster way of developing necessarily, butmakes software more robust when deployed, because Dev understands the needs of Ops better."
+      },
+      {
+        "value": "B",
+        "label": "Because DevOps teams are more expensive, they work more overtime and get a product on themarket quicker.",
+        "explanation": "Although the self-sufficient dedicated teams can be more expensive, DevOps practicesnever rely on structurally working overtime to get things done faster. Quite the opposite is true:DevOps likes to try to find a sustainable pace and rhythm."
+      },
+      {
+        "value": "C",
+        "label": "Because DevOps uses self-sufficient dedicated teams, there is more agility to deal with changingproduct requirements.",
+        "explanation": "Because there is a single dedicated and self-sufficient team working on a single product,there are less distractions and interruptions to the work on that product. In addition, the team doesnot need to wait for a specialist. This reduces great amounts of waste in the form of waiting time andhelps the team reduce their time-to-market. (Literature: A, Chapter 1.3.1)"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "What are two common practices for reducing technical debt?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Formal change and release management practices",
+        "explanation": "These are two processes that could increase technical debt."
+      },
+      {
+        "value": "B",
+        "label": "Incident management and request fulfilment practices",
+        "explanation": "These two processes could cause technical debt instead of reducing it."
+      },
+      {
+        "value": "C",
+        "label": "Increasing budget and resources",
+        "explanation": "This will not directly help reduce technical debt, although when there are more developers,technical debt may be reduced faster."
+      },
+      {
+        "value": "D",
+        "label": "Refactoring and facing the issue",
+        "explanation": "According to the literature, two of the commonly used practices are Refactoring and facingthe issue. (Literature: A, Chapter 1.3)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 18"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "Which significant advantage does DevOps bring to an organization?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Eliminate fragility of a business system",
+        "explanation": "\"DevOps is expected to address: reducing time to market, reducing technical debt andeliminating fragility.\" (Literature: A, Chapter 1.3.3)"
+      },
+      {
+        "value": "B",
+        "label": "Lower costs for the customer",
+        "explanation": "DevOps practices can be more expensive and there is no focus on reducing the costs forthe customer."
+      },
+      {
+        "value": "C",
+        "label": "Reduce cultural challenges",
+        "explanation": "Although DevOps encourages a diverse team, this does not guarantee a reduction ofcultural challenges."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "Sometimes, it is thought that DevOps is a part of Agile. To which question, that has nothing to do with Agile, does DevOps give an answer?",
+    "options": [
+      {
+        "value": "A",
+        "label": "What can be done to release the software we develop quick enough to take a large market share?",
+        "explanation": "The release of a product is both part of Agile and DevOpsAgile helps to quickly releasefunctioning parts of the final product. DevOps further explores ways of delivering real value to actualcustomers better."
+      },
+      {
+        "value": "B",
+        "label": "What relationship with our customers is necessary, so that we understand their requirements better?",
+        "explanation": "The relationship with the customer and the requirement gathering are both part of Agile andDevOps. Product Owners will maintain close contact with the customer to ensure value is being addedto the product."
+      },
+      {
+        "value": "C",
+        "label": "What should be done with a released product to make it useful and easy to operate?",
+        "explanation": "Thinking about the release and operate phases during development are not necessarily partof Agile, but they are an essential part of DevOps. (Literature: A, Chapter 1.5.1)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 19"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "Why is the concept 'value stream' so important in DevOps?",
+    "options": [
+      {
+        "value": "A",
+        "label": "The value stream helps coworkers to see and understand their daily tasks.",
+        "explanation": "This is the 'what' of their work, while missing the expected outcome: the 'why'."
+      },
+      {
+        "value": "B",
+        "label": "The value stream helps to analyze the as-is map and any attempts to improve metrics.",
+        "explanation": "The optimization work should not be limited to analyzing the as-is mapIt is necessary todevelop a to-be map, which may be quite different from the current work practice."
+      },
+      {
+        "value": "C",
+        "label": "The value stream helps to identify when someone did their part of the work.",
+        "explanation": "It is important to know when the customer received or started to receive the value theyexpected."
+      },
+      {
+        "value": "D",
+        "label": "The value stream helps to realize a smooth and uniform flow through all process steps.",
+        "explanation": "The concept of the value stream ensures that a smooth and uniform flow from one step tothe next in the process can be created. (Literature: A, Chapter 3.1)"
+      },
+      {
+        "value": "E",
+        "label": "The value stream helps to realize local optimization in the current work practice.",
+        "explanation": "It helps to identify and eliminate bottlenecks, while avoiding the local optimization trap."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "What is the first step in value stream mapping?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Create the requirements specification",
+        "explanation": "The first step should be to identify key steps for the team’s particular process andorganization."
+      },
+      {
+        "value": "B",
+        "label": "Document the work done",
+        "explanation": "Documentation of the work done should be done only after identifying the key stepsWorkdone on non-essential steps is not part of the value stream map."
+      },
+      {
+        "value": "C",
+        "label": "Identify the key steps in the process",
+        "explanation": "This should be the first step when value stream mappingThe organization should look at theprocess for which they want to create a value stream map and identify the key steps where work isdone and value is added. (Literature: A, Chapter 3.1)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 20"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "A value stream map shows clearly where the inefficiencies in a value stream are. Why should a value stream map be made?",
+    "options": [
+      {
+        "value": "A",
+        "label": "To help optimize business processes",
+        "explanation": "This is the reason one should have in mind when creating the value stream map and this iswhere the exercise has the most value. (Literature: A, Chapter 3.1)"
+      },
+      {
+        "value": "B",
+        "label": "To see which people are not working hard enough",
+        "explanation": "The reason to do a value stream mapping is not to see who is redundant, who should getfired first or who is not pulling their weight. Instead, the processes should be optimized, so that thepeople in the company can start producing higher quantities with higher quality."
+      },
+      {
+        "value": "C",
+        "label": "To speed up the work in progress (WIP)",
+        "explanation": "Although the process may speed up, the work itself does not necessarily need to speed up.Rather, the work itself may slow down to avoid errors and increase first-time-right, which can save astep of quality control. Speeding up the work is not the goal, eliminating waste and adding more valueto the business is."
+      },
+      {
+        "value": "D",
+        "label": "To visualize which product line should be ended",
+        "explanation": "Although the business may decide to end a business line or a product line based on thevalue stream map, this is never the goal of value stream mapping. Instead, value stream mappingshould only be done for viable products.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 21"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "Tasks need to be prioritized. This prioritization takes place in the queue at the entry of the value stream. Why does this prioritization often cause problems?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Because at this point, the decision is made how to build the deployment pipeline for the tasks that canbe automated. This takes time, which causes delays.",
+        "explanation": "This step is taken later in the process and does not cause problems at the queue at theentry of the value stream."
+      },
+      {
+        "value": "B",
+        "label": "Because enabling measurements of the key indicators in the value stream is done incorrectly orinefficiently, which leads to problems.",
+        "explanation": "This is not an objective of the first step of the value stream (maximization of the number ofmetrics) and should not be done at this point, so this should not cause the problems mentioned."
+      },
+      {
+        "value": "C",
+        "label": "Because implementation of the use of visualization tools along with work-in-progress limits (WIP-limits), with which one can identify the bottlenecks of the tasks, is done incorrectly.",
+        "explanation": "In this way a state of an even flow without delays is achieved and bottlenecks are shown,but this is not the problem that occurs at the point mentioned."
+      },
+      {
+        "value": "D",
+        "label": "Because the development of the as-is version and the to-be version of the stream must be created, aswell as a list of the changes required. This takes a lot of time.",
+        "explanation": "This is achieved later in the process of the value stream, so this should not cause problemsat the point mentioned."
+      },
+      {
+        "value": "E",
+        "label": "Because when many decisions are made before work even starts, like in the traditional approach, thiscauses massive delays.",
+        "explanation": "When an organization keeps using many traditional practices, where all decisions regardingthe work are made before starting the work, this causes the problems mentioned. (Literature: A,Chapter 4.10)"
+      }
+    ],
+    "correctAnswer": "E"
+  },
+  {
+    "statement": "Which idea is the origin of the concept 'deployment pipeline'?",
+    "options": [
+      {
+        "value": "A",
+        "label": "A pipeline that carries a liquid creating flow",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept."
+      },
+      {
+        "value": "B",
+        "label": "An assembly line such as a car plant",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept."
+      },
+      {
+        "value": "C",
+        "label": "Modern processors that use parallel pipelining",
+        "explanation": "Humble and Farley clarified that when they coined the term they used the idea of pipeliningfrom modern processors architecture that allows it to produce far faster results. (Literature: A,Chapter 3.2)"
+      },
+      {
+        "value": "D",
+        "label": "The idea of using more than one assembly line",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept."
+      },
+      {
+        "value": "E",
+        "label": "The process of deploying people to do different jobs",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 22"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "When implementing the deployment pipeline, problems are encountered. Initially, there are not enough pre-developed tests to ensure steady operation of the Production environment. Which solution best addresses this problem?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Create the pipeline and as many automations as possible, but do not use them until all the propertests are in place.",
+        "explanation": "Creating the pipeline and not using it until all the tests are in place will take too much time,which loses the business money. An iterative approach should be attempted, with the most importanttests first and continuously generating new tests to increase coverage."
+      },
+      {
+        "value": "B",
+        "label": "Increase the coverage of the code with tests as technical debt, which must be addressed as soon aspossible.",
+        "explanation": "Increasing the coverage of the code with tests is the only solution for this problem.(Literature: A, Chapter 3.2)"
+      },
+      {
+        "value": "C",
+        "label": "Let the pipeline run with the developed tests and deal with the potential issues in Production whenthey arise.",
+        "explanation": "Letting the pipeline run with a small set of tests creates poor testing coverage andpotentially creates many issues in production. This hinders the adoption of the pipeline."
+      },
+      {
+        "value": "D",
+        "label": "Use the pipeline as an integration system to deliver the written code to test and quality assurance(QA) only.",
+        "explanation": "The deployment pipeline aims to deliver working code to Production, not just to test and QA,so it will not fit its purpose."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "A good version control system is one of the highest predictors of high performance in DevOps. What is necessary to apply version control successfully?",
+    "options": [
+      {
+        "value": "A",
+        "label": "A change in the culture of working with information and configuration",
+        "explanation": "Versioning allows for control over all the relevant parts of the system in operation,unattainable with other tools. Version control done well requires a change in the culture of workingwith information and configuration. (Literature: A, Chapter 3.3)"
+      },
+      {
+        "value": "B",
+        "label": "A significant increase in the speed of change implementation",
+        "explanation": "The degree of automation has increased significantly in the last years due to the use ofvirtual cloud technologies, and so has the speed of the change implementation, but that is not arequired principle for version control."
+      },
+      {
+        "value": "C",
+        "label": "The deliberate introduction of chaos and instability in Production",
+        "explanation": "One of the great practices of DevOps related to anti-fragility is the deliberate introduction ofchaos and instability into the production environment. This technique is known by various names:game day, chaos monkey, simian army. None of these are required principles for version control."
+      },
+      {
+        "value": "D",
+        "label": "The use of a formalized and automated change management process",
+        "explanation": "To deal with fragility in the IT infrastructure, some organizations use formalized andautomated change management processes designed to structure the flow of changes and minimizethe risks associated with their implementation, but that is not a required principle for version control.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 23"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "For DevOps, finding the balance between moving quickly and maintaining application reliability is important. How does version control support this?",
+    "options": [
+      {
+        "value": "A",
+        "label": "By allowing any member of the team to freely delete unnecessary files and documents",
+        "explanation": "Version control allows any member of the team to freely delete unnecessary files anddocuments, without the risk of accidental loss of important information or product. (Literature: A,Chapter 3.3)"
+      },
+      {
+        "value": "B",
+        "label": "By allowing the formation of small independent and self-sufficient development teams",
+        "explanation": "Forming small, self-sufficient and diverse teams is a key idea in DevOps, but it is not theway version control supports agility and reliability of the system."
+      },
+      {
+        "value": "C",
+        "label": "By applying specialized tools to eliminate or reduce waste and optimize processes",
+        "explanation": "This is a practical application of Lean production ideas to ITUse specialized tools toidentify waste; then apply other specialized tools to eliminate or reduce waste. However, this is notthe way version control supports agility and reliability of the system."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What benefit does configuration management have?",
+    "options": [
+      {
+        "value": "A",
+        "label": "It allows any team member to delete unwanted files without risk.",
+        "explanation": "It is version control that allows any team member to freely delete informationIf anythinggoes wrong, the previous version can be restored."
+      },
+      {
+        "value": "B",
+        "label": "It allows key team members to be absent without problems.",
+        "explanation": "When all changes are controlled by configuration management, the system is automaticallyrestored to a previous stable state if necessary. In addition, if key team members leave, theirknowledge is not lost, but solidified in the configuration. (Literature: A, Chapter 3.4)"
+      },
+      {
+        "value": "C",
+        "label": "It allows team members to see who changed which code at what date.",
+        "explanation": "The records of what was changed when and by whom are part of version control and not ofconfiguration management.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 24"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "Configuration management makes it possible to scale IT infrastructure and software systems, without needing more people working on them. How should changes to such a scaled environment ideally be done?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Through continuous integration",
+        "explanation": "Continuous Integration is the second stage in implementing a deployment pipeline, but notthe only way administrators should be allowed to change anything in production. Ideally this is alldone by automated scripts."
+      },
+      {
+        "value": "B",
+        "label": "Through fully controlled scripts",
+        "explanation": "In fact, it can be argued that even administrators no longer should have rights in production.They should not be allowed to change anything except through fully controlled (and automated)scripts. (Literature: A, Chapter 3.3, 3.4)"
+      },
+      {
+        "value": "C",
+        "label": "Through test automation",
+        "explanation": "Test automation is the third stage in implementing a deployment pipeline, but not the onlyway administrators should be allowed to change anything in production. Ideally this is all done byautomated scripts."
+      },
+      {
+        "value": "D",
+        "label": "Through the deployment pipeline",
+        "explanation": "At an abstract level, a well-working and fully automated deployment pipeline is anautomated manifestation of the process for getting software from version control into the hands ofusers. However, a manual deployment pipeline is possible. It is not a description of the wayadministrators should be allowed to change anything in production. Ideally this is all done byautomated scripts."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "A clear definition of done is (DoD) critical in DevOps and considers the value for the customer. What is a good description of 'done' for DevOps?",
+    "options": [
+      {
+        "value": "A",
+        "label": "A requirement is done when it has been built.",
+        "explanation": "Something is considered 'done' when value for the customer has been addedBuilding isjust a phase in the DevOps pipeline, no added value is obtained yet."
+      },
+      {
+        "value": "B",
+        "label": "A requirement is done when it has been tested.",
+        "explanation": "Something is considered 'done' when value for the customer has been addedTesting is justa phase in the DevOps pipeline, no added value is obtained yet."
+      },
+      {
+        "value": "C",
+        "label": "A requirement is done when the product is accepted.",
+        "explanation": "Something is considered 'done' when value for the customer has been addedAcceptanceis just a phase in the DevOps pipeline, no added value is obtained yet."
+      },
+      {
+        "value": "D",
+        "label": "A requirement is done when the product is in Production.",
+        "explanation": "Something is considered 'done' when value for the customer has been addedThis is truewhen the product is in the production environment. (Literature: A, Chapter 3.5)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 25"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "In traditional practices many things can go wrong with releases: some changes are not documented, the system has not been backed up fully, or there is no previous state of the system saved. How does DevOps ensure frequent releases without these problems?",
+    "options": [
+      {
+        "value": "A",
+        "label": "By automating releases",
+        "explanation": "Automation is an important factor in ensuring that releases are frequent and that the releaseprocess becomes routine. If all human factors of backing up, documenting and rolling back areautomated, the chances of problems with releasing diminish dramatically. If a release cannot beimplemented successfully, the system will alert the team to act. (Literature: A, Chapter 4.1)"
+      },
+      {
+        "value": "B",
+        "label": "By letting Operations release",
+        "explanation": "Giving Operations control does not prevent the mentioned problemsLooking at Operationsand integrating Development into their practices may shed light on which parts of the release processneed automating and standardization. Just handing over releasing to Operations will not solve theproblems mentioned."
+      },
+      {
+        "value": "C",
+        "label": "By making releases very small",
+        "explanation": "The size of the release does not matter as much as the automation to make the routinereleases work. The smaller releases will not necessarily prevent any of the problems mentioned.Releasing frequently will make the releases smaller."
+      },
+      {
+        "value": "D",
+        "label": "By not documenting all changes",
+        "explanation": "This will make the problems worseIntroducing a versioning system, preferably automated,will help eliminate the problems caused by improper documentation."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "A company uses continuous deployment. Whose decision should it be when to release new functionality?",
+    "options": [
+      {
+        "value": "A",
+        "label": "The business",
+        "explanation": "Releasing new functionality to be used becomes a business decision when using continuousdeployment. The functionality may already have been deployed for a time before the business decidesthat it is time to switch the functionality on. The IT department releases in their own tempo, thebusiness decides when to release new functionality. (Literature: A, Chapter 4.1)"
+      },
+      {
+        "value": "B",
+        "label": "The customer",
+        "explanation": "Although this stakeholder is important for the decision, releases are primary a businessdecision."
+      },
+      {
+        "value": "C",
+        "label": "The IT department",
+        "explanation": "Although this stakeholder is important for the decision, releases are primary a businessdecision."
+      },
+      {
+        "value": "D",
+        "label": "The user",
+        "explanation": "Although this stakeholder is important for the decision, releases are primary a businessdecision.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 26"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "According to DevOps practices, what is the best way to increase the level of operational control?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Automating all manual operations",
+        "explanation": "Automating as many operations as possible will give total control, because all operationsbecome instant and uniform. When an operation is suboptimal, changing the automation will alsochange all future operations. (Literature: A, Chapter 4.1.3)"
+      },
+      {
+        "value": "B",
+        "label": "Defining appropriate roles and responsibilities",
+        "explanation": "Although defining roles and responsibilities is important, it does not directly impact thecontrol over all operations."
+      },
+      {
+        "value": "C",
+        "label": "Designing control procedures",
+        "explanation": "Just designing procedures will not helpOnce the procedures are designed, they should beautomated so no errors are made, and all operations are uniform."
+      },
+      {
+        "value": "D",
+        "label": "Improving operational governance",
+        "explanation": "Although this may be desirable anyway, just governing does not give more control.Automation ensures total control."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What is the DevOps way of solving incidents?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Escalate to the problem management team and create a solution until they solve the incident",
+        "explanation": "This solution may lead to a working workaround, in which case the real problem may neverget solved."
+      },
+      {
+        "value": "B",
+        "label": "Investigate the incident, run diagnostics, then identify and implement a workaround",
+        "explanation": "Implementing a workaround does not solve the incidentThis is not how one shouldoperate."
+      },
+      {
+        "value": "C",
+        "label": "See if a related incident occurred earlier and implement a similar solution to the problem",
+        "explanation": "The solution is most likely a workaround, which is not desirableOne should not wait untilsomeone else fixes the problem."
+      },
+      {
+        "value": "D",
+        "label": "Trace the incident back to a recent deployment and roll the system back to a previous stable state",
+        "explanation": "According to the literature, \"In case the incident is traced back to a recent deployment, thepipeline control system will automatically roll back to the previous known stable state\". This is whatshould happen, whether this process is automated or still done manually. (Literature: A, Chapter 4.1)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 27"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "In DevOps, what should be done when process deficiencies are found?",
+    "options": [
+      {
+        "value": "A",
+        "label": "All changes should be submitted to a backlog, so they can be released in a project or a Kaizen event.",
+        "explanation": "A large change event or a Kaizen event may be useful, but regular changes to the processas a part of continuous improvement should be done as quickly as possible."
+      },
+      {
+        "value": "B",
+        "label": "Fixes should be found and implemented as soon as possible after detection of the deficiency.",
+        "explanation": "Not fixing process deficiencies when they have been detected leads to more problems thannecessary. \"Therefore, DevOps uses a different approach: all identified process deficiencies should beeliminated immediately.\" (Literature: A, Chapter 4.1)"
+      },
+      {
+        "value": "C",
+        "label": "Fixes should be found, approved by the change manager, and released based on priority.",
+        "explanation": "There is no change manager and the fixes should be implemented immediately."
+      },
+      {
+        "value": "D",
+        "label": "Fixes should be found, approved by the continuous improvement manager, and released immediately.",
+        "explanation": "There is no continuous improvement manager to approve any fixes."
+      },
+      {
+        "value": "E",
+        "label": "Fixes should be postponed until the change can be included in an appropriate iteration.",
+        "explanation": "Postponing is not a great ideaIt keeps the system inefficient and impacts the worknegatively."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "What does not help a DevOps team to successfully develop and deliver working software?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Forming a DevOps team for a short period of time during a project",
+        "explanation": "DevOps teams are formed for a longer periodThis gives them the opportunity to use theirexperience in the future to deliver new software quicker and to keep innovating. (Literature: A, Chapter4.2)"
+      },
+      {
+        "value": "B",
+        "label": "Identifying, fixing and learning from errors as soon as they are found",
+        "explanation": "When batches are smaller, errors can be found more easily and corrected immediately.DevOps focuses on the Lean process of finding errors fast, fixing them in the process immediatelyand optimizing the process."
+      },
+      {
+        "value": "C",
+        "label": "Organizing DevOps teams around an organizational mission",
+        "explanation": "One of DevOps’s main advantages is that the team adds value to the business by aligningtheir work to a specific organizational goal."
+      },
+      {
+        "value": "D",
+        "label": "Writing code for software to have built-in quality as a main goal",
+        "explanation": "Focusing on built-in quality is a Lean property incorporated by DevOpsWhen one is codingfor quality, it may take longer, but because fewer bugs are found and the system is built to be morerobust, this adds value in the end.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 28"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "DevOps recommends visualization of the work done. Which two goals can be realized by visualization? Please remember to choose 2 answers.",
+    "options": [
+      {
+        "value": "A",
+        "label": "Building a pull-system",
+        "explanation": "This is a benefit of using visualizationVisualizing allows to build a pull system, which in turn:improves the workflow; reduces downtime; reduces the need for coordination. Visualization also helpsto identify inefficiencies. (Literature: A, Chapter 4.3)"
+      },
+      {
+        "value": "B",
+        "label": "Dividing the work",
+        "explanation": "A team can effectively divide the work without visualizationCommitment is not fostered byvisualization, although it is important for DevOps to be successful. The person acting as Voice of theCustomer or Voice of the Business should update the customer."
+      },
+      {
+        "value": "C",
+        "label": "Fostering commitment",
+        "explanation": "A team can effectively divide the work without visualizationCommitment is not fostered byvisualization, although it is important for DevOps to be successful. The person acting as Voice of theCustomer or Voice of the Business should update the customer."
+      },
+      {
+        "value": "D",
+        "label": "Identifying inefficiencies",
+        "explanation": "This is a benefit of using visualizationVisualizing allows to build a pull system, which in turn:improves the workflow; reduces downtime; reduces the need for coordination. Visualization also helpsto identify inefficiencies. (Literature: A, Chapter 4.3)"
+      },
+      {
+        "value": "E",
+        "label": "Informing the customer",
+        "explanation": "A team can effectively divide the work without visualizationCommitment is not fostered byvisualization, although it is important for DevOps to be successful. The person acting as Voice of theCustomer or Voice of the Business should update the customer."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What is not a reason to keep the work in progress (WIP) limited?",
+    "options": [
+      {
+        "value": "A",
+        "label": "To decrease loss of productivity",
+        "explanation": "By limiting WIP, there is more focus for the team members to work on a single itemThishelps to stop unnecessary interruptions by task switching and ultimately leads to more productivity."
+      },
+      {
+        "value": "B",
+        "label": "To help eliminate constraints",
+        "explanation": "Limiting WIP makes it easier to quickly fix errors and optimize the system between tasks."
+      },
+      {
+        "value": "C",
+        "label": "To help the rhythm of the flow",
+        "explanation": "This is not one of the benefits of limiting WIP(Literature: A, Chapter 4.4 and 4.5)"
+      },
+      {
+        "value": "D",
+        "label": "To increase resource utilization",
+        "explanation": "By limiting WIP, there is more focus for the team members to work on a single itemThishelps to stop unnecessary interruptions by task switching and ultimately leads to a better use ofresources.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 29"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "Which requirements should a DevOps team consider when working on a backlog item?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Both non-functional and functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered(Literature: A,Chapter 4.6)"
+      },
+      {
+        "value": "B",
+        "label": "Neither non-functional nor functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered."
+      },
+      {
+        "value": "C",
+        "label": "Only functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered."
+      },
+      {
+        "value": "D",
+        "label": "Only non-functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What is an advantage of having a DevOps team work together for a longer period?",
+    "options": [
+      {
+        "value": "A",
+        "label": "The team does not have to improve the process anymore.",
+        "explanation": "DevOps teams are always looking to improveThat is what continuous improvement is for.A team that works together for longer may even feel more confident changing routines and improvingprocesses."
+      },
+      {
+        "value": "B",
+        "label": "The team uses their experience to innovate and improve the process.",
+        "explanation": "DevOps teams that work together longer have the opportunity to use their experience infuture development and to deliver more quickly and innovate the processes. (Literature: A, Chapter4.9)"
+      },
+      {
+        "value": "C",
+        "label": "The team will start working more independently.",
+        "explanation": "Working together does not mean that the team works more independentlyThey have theorganizational mission to adhere to for direction. Other than that, they should be self-sufficient fromthe start."
+      },
+      {
+        "value": "D",
+        "label": "There is time left to process unexpected requests more often.",
+        "explanation": "A batch is planned with backlog items according to their priorityProcessing manyunexpected requests should never be a goal in DevOps. The requests should go in the backlog and beprioritized. Only then should they be taken up in the next iteration.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 30"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "A team works in one-week iterations and frequently encounters bottlenecks. What is the best reaction after identifying a bottleneck?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Eliminate the bottleneck as soon as possible after it is identified",
+        "explanation": "Finding ways to eliminate the cause of the bottlenecks should be done as fast as possible.When the bottleneck is eliminated, the work could even get done in the iteration it was promised,although this is not common. (Literature: A, Chapter 4.11)"
+      },
+      {
+        "value": "B",
+        "label": "Lengthen only the iteration in which a bottleneck is found",
+        "explanation": "In this case, that is not the best way of dealing with the problemScrum allows occasionalextensions of the iteration length. However, in DevOps there is even more focus on establishingrhythm than in Scrum. Therefore, one should only extend the iteration as a last resort."
+      },
+      {
+        "value": "C",
+        "label": "Limit the regular number of tasks in a batch to reduce batch size",
+        "explanation": "Limiting the batch size helps to identify the problems causing the bottlenecksIt should beimplemented as part of DevOps practices, though. It should not only be implemented after the teamhas identified a bottleneck."
+      },
+      {
+        "value": "D",
+        "label": "Use visualization tools along with work-in-progress limits (WIP-limits)",
+        "explanation": "This helps to identify bottlenecks, but it should not be implemented after the team hasidentified a bottleneck."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "When can the use of DevOps for organizational and technological changes lead to chaos and loss of control?",
+    "options": [
+      {
+        "value": "A",
+        "label": "When the core business of the organization highly depends on IT",
+        "explanation": "Organizations (shoulddependent on information technology."
+      },
+      {
+        "value": "B",
+        "label": "When the organization is complex and wants to solve chronic problems",
+        "explanation": "For complex situations, DevOps most likely will not bring much profit and will definitely giveno quick wins. Chronic problems should be solved carefully, thoughtfully and judiciously. One shouldnot just hope that DevOps is a magical cure for all problems. (Literature: A, Chapter 5.1)"
+      },
+      {
+        "value": "C",
+        "label": "When the organization requires rapid changes to test new business ideas",
+        "explanation": "Organizations (shouldchanges to test new business ideas or hypotheses."
+      },
+      {
+        "value": "D",
+        "label": "When the rate of change in the IT used by the organization is high",
+        "explanation": "Organizations (shouldthe IT used, is high.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 31"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "There are many reasons for a company to become interested in DevOps. When should companies become interested in DevOps?",
+    "options": [
+      {
+        "value": "A",
+        "label": "When Agile practices do not seem to fit the company",
+        "explanation": "This should be a trigger to seriously reconsider DevOps practices for a companyWhenAgile practices do not seem to be relevant to a company, there is no harm in looking into DevOpspractices. However, since DevOps practices include many Agile concepts, DevOps may not be for thatcompany."
+      },
+      {
+        "value": "B",
+        "label": "When no other method gives the necessary results",
+        "explanation": "Companies (shouldincreasing effectiveness no longer give significant results. Even though this is not the best reason tostart using DevOps practices, DevOps should definitely be investigated when nothing else works.(Literature: A, Chapter 5.1)"
+      },
+      {
+        "value": "C",
+        "label": "When Scrum and Lean practices have been implemented",
+        "explanation": "There is no need to wait until Scrum and Lean practices are implemented to start DevOpspractices. In fact, many of the DevOps practices will rely on Scrum and Lean concepts. They shouldwork with each other seamlessly. DevOps allows the company to choose whatever works best in thatcompany."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "What can cause difficulties when DevOps is adopted?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Cross-functional teams",
+        "explanation": "DevOps teams are cross-functional; having cross-functional teams gives organizations ahead start in DevOps."
+      },
+      {
+        "value": "B",
+        "label": "Limited use of virtualization",
+        "explanation": "Organizations using little virtualization will have difficulties implementing DevOps practices.(Literature: A, Chapter 5.1)"
+      },
+      {
+        "value": "C",
+        "label": "Microservice architecture",
+        "explanation": "Microservice architecture emerged from a common set of DevOps ideologies givesorganizations a head start in DevOps.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 32"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "An IT system is still being developed and maintained by many employees as a single entity. What difficulty with adopting DevOps practices can be expected?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Assigning DevOps teams to separate areas of responsibility",
+        "explanation": "A significant obstacle for the implementation of DevOps practices is a monolithic, rigidlybound IT architecture. Introduction of small teams requires the ability to assign a separate area ofresponsibility to each of them. In a situation where the IT system in question is still being developedand maintained by dozens or hundreds of employees as a single entity, it will be difficult to separateparts for individual independent teams that work asynchronously. (Literature: A, Chapter 5.1)"
+      },
+      {
+        "value": "B",
+        "label": "Creating cross-functional teams to work on the organizational structure",
+        "explanation": "There is no inhibition in the creation of cross-functional teams themselves."
+      },
+      {
+        "value": "C",
+        "label": "Maintaining and versioning multiple APIs for backward compatibility",
+        "explanation": "With a monolithic application, developers must only chnage the class name and APIWithmicroservices, developers must change the version number of the API and maintain multiple APIs forbackward compatibility. In this case, no microservices have been implemented yet, so this is not anexpected problem. In addition, although it may require a system for versioning, this is not a problem,but progress and an expected result and ultimately benefit of implementing DevOps practices."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "Commercial off-the-shelf software (COTS) is used to quickly get the results needed, because it takes time to develop custom software. What is true about COTS?",
+    "options": [
+      {
+        "value": "A",
+        "label": "COTS requires customization and scripting to configure the system.",
+        "explanation": "With scripting it is possible to configure this kind of softwareHowever, there might belimitations and configuring the system still takes time. (Literature: A, Chapter 5.2)"
+      },
+      {
+        "value": "B",
+        "label": "COTS should be used to support strategic business lines.",
+        "explanation": "Off-the-shelf software will not automatically support strategic business linesScripting willbe necessary to make that possible (if it is possible at all). It is recommended not to use COTS forstrategic business lines."
+      },
+      {
+        "value": "C",
+        "label": "Using ready to use software is generally more flexible.",
+        "explanation": "Commercial off-the-shelf software is always limiting flexibilityIt is not always possible toconfigure it the way the team wants or needs to."
+      },
+      {
+        "value": "D",
+        "label": "Using ready to use software is usually much cheaper.",
+        "explanation": "Configuring such software will take time, which means extra effort and extra expensesInaddition, the value the business actually needs may not be delivered.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 33"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What is a difficulty of a rigid or monolithic IT architecture?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Changing and developing the IT architecture itself is difficult to do",
+        "explanation": "This is a problem of a rigid IT architectureThe larger and more rigid the architecture, themore difficult it becomes to change anything, whilst still seeing what that change does to the rest ofthe architecture. (Literature: A, Chapter 5.3)"
+      },
+      {
+        "value": "B",
+        "label": "Modifying services within the architecture is done independently",
+        "explanation": "This is a solution of the problemWhen all services can be modified independently, thearchitecture is no longer rigid."
+      },
+      {
+        "value": "C",
+        "label": "Updating to a new version without disabling the current version",
+        "explanation": "This can be a challenge even when the architecture is not rigid."
+      },
+      {
+        "value": "D",
+        "label": "Waiting for all components to be ready for a large-scale migration",
+        "explanation": "It is not necessarily rigid when a large-scale migration is done and all components shouldbe made ready for that. This could happen in any type of IT architecture."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "It is recommended that organizations customize and select DevOps practices that work in that organization. Organization-specific questions must be raised and organization-specific answers must be found. Why is this a good idea?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Because DevOps publications do not always reflect reality and underreport difficulties and failures.",
+        "explanation": "The overwhelming amount of literature does not necessarily prepare the team for allstruggles and failures reality may pose. It is important to filter your information and see what appliesto the organization’s situation most. (Literature: A, Chapter 5.6)"
+      },
+      {
+        "value": "B",
+        "label": "Because that is the way to become a DevOps engineer that can be hired for implementing DevOps.",
+        "explanation": "DevOps cannot be implemented and there is no engineer that can be hired to bring the neworder to IT."
+      },
+      {
+        "value": "C",
+        "label": "Because the management teams know best how to implement DevOps in their own organization.",
+        "explanation": "There is no such thing as implementing DevOps."
+      },
+      {
+        "value": "D",
+        "label": "Because there are too few publications and events about DevOps to form independent opinions.",
+        "explanation": "On the contrary, there are many publications and events to help the organization decide.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 34"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "An organization has a legacy IT infrastructure. They want to start with DevOps. What is a common approach in such an organization?",
+    "options": [
+      {
+        "value": "A",
+        "label": "To start implementing DevOps as a software product, install it and start it",
+        "explanation": "DevOps is not a software product that can be installed and started."
+      },
+      {
+        "value": "B",
+        "label": "To start with a basic pipeline that performs at least assembly and initial testing",
+        "explanation": "This is not an approach to start with DevOpsThis is required to proceed with the building ofthe deployment pipeline for the part of the stream that can be automated."
+      },
+      {
+        "value": "C",
+        "label": "To start with a selection of the product with the greatest opportunities for optimization",
+        "explanation": "This is the start of developing the value stream mapping."
+      },
+      {
+        "value": "D",
+        "label": "To start with identifying those systems that are loosely connected with others",
+        "explanation": "DevOps can start anywhere, wherever the business is nowIdentifying loosely connectedsystems is the first step. (Literature: A, Chapter 5.6)"
+      },
+      {
+        "value": "E",
+        "label": "To start with the allocation of a certain proportion of working time for the improvement",
+        "explanation": "This relates to the technical debt."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "There are many reasons for an organization to become interested in DevOps. When should companies become interested in DevOps?",
+    "options": [
+      {
+        "value": "A",
+        "label": "When Agile practices do not seem to fit the organization",
+        "explanation": "This should be a trigger to seriously reconsider DevOps practices for an organizationWhenAgile practices do not seem to be relevant to a business, there is no harm in looking into DevOpspractices. However, since DevOps practices include many Agile concepts, DevOps may not be for thatorganization."
+      },
+      {
+        "value": "B",
+        "label": "When no other method gives the necessary results",
+        "explanation": "Companies (shouldincreasing effectiveness no longer give significant results. Even though this is not the best reason tostart using DevOps practices, DevOps should definitely be investigated when nothing else works.(Literature: A 5.1)"
+      },
+      {
+        "value": "C",
+        "label": "When Scrum and Lean practices have been implemented",
+        "explanation": "There is no need to wait until Scrum and Lean practices are implemented to start DevOpspractices. In fact, many of the DevOps practices will rely on Scrum and Lean concepts. They shouldwork with each other seamlessly. DevOps allows the organization to choose whatever works best inthat organization."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "Which requirements should a DevOps team take into account when working on a backlog item?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Both non-functional and functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered(Literature: A 4.6)"
+      },
+      {
+        "value": "B",
+        "label": "Neither non-functional nor functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered."
+      },
+      {
+        "value": "C",
+        "label": "Only functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered."
+      },
+      {
+        "value": "D",
+        "label": "Only non-functional requirements",
+        "explanation": "Both functional and non-functional requirements should be considered.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 15"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "A clear Definition of Done is critical in DevOps and considers the value for the customer. What is a good description of Done for DevOps?",
+    "options": [
+      {
+        "value": "A",
+        "label": "A requirement is Done when it has been built.",
+        "explanation": "A good description of Done for DevOps is to consider something Done when value for thecustomer has been added. Build is just a phase in the DevOps pipeline, no added value is obtained yet."
+      },
+      {
+        "value": "B",
+        "label": "A requirement is Done when it has been tested.",
+        "explanation": "A good description of Done for DevOps is to consider something Done when value for thecustomer has been added. Testing is just a phase in the DevOps pipeline, no added value is obtainedyet."
+      },
+      {
+        "value": "C",
+        "label": "A requirement is Done when the product is accepted.",
+        "explanation": "A good description of Done for DevOps is to consider something Done when value for thecustomer has been added. Acceptance is just a phase in the DevOps pipeline, no added value isobtained yet."
+      },
+      {
+        "value": "D",
+        "label": "A requirement is Done when the product is in Production.",
+        "explanation": "A good description of Done for DevOps is to consider something Done when value for thecustomer has been added. This is true when the product is in the Production environment. (Literature:A 3.5)"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "Tasks need to be prioritized. This prioritization takes place in the queue at the entry of the value stream. Why does this prioritization often cause problems?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Because at this point, the decision is made how to build the deployment pipeline for the tasks that canbe automated. This takes time, which causes delays.",
+        "explanation": "This step is taken later in the process and does not cause problems at the queue at theentry of the value stream."
+      },
+      {
+        "value": "B",
+        "label": "Because enabling measurements of the key indicators in the value stream is done incorrectly orinefficiently, which leads to problems.",
+        "explanation": "This is not an objective of the first step of the value stream (maximization of the number ofmetrics) and should not be done at this point, so this should not cause the problems mentioned."
+      },
+      {
+        "value": "C",
+        "label": "Because implementation of the use of visualization tools along with WiP-limits with which one canidentify the bottlenecks of the tasks is done incorrectly.",
+        "explanation": "In this way a state of an even flow without delays is achieved and bottlenecks are shown,but this is not the problem that occurs at the point mentioned."
+      },
+      {
+        "value": "D",
+        "label": "Because the development of the as-is version and the to-be version of the stream must be created, aswell as a list of the changes required. This takes a lot of time.",
+        "explanation": "This is achieved later in the process of the value stream, so this should not cause problemsat the point mentioned."
+      },
+      {
+        "value": "E",
+        "label": "Because when the traditional approach is still used, it requires many decisions to be made beforework even starts, which causes massive delays.",
+        "explanation": "When an organization keeps using many traditional practices, where all decisions regardingthe work are made before starting the work, this causes the problems mentioned. (Literature: A 4.10)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 16"
+      }
+    ],
+    "correctAnswer": "E"
+  },
+  {
+    "statement": "Why is the concept 'value stream' so important in DevOps?",
+    "options": [
+      {
+        "value": "A",
+        "label": "The value stream helps employees to see and understand their daily tasks.",
+        "explanation": "This is \"The what of their work\", while missing the expected outcome \"The why\"."
+      },
+      {
+        "value": "B",
+        "label": "The value stream helps to analyze the as-is map and any attempts to improve metrics.",
+        "explanation": "The optimization work should not be limited to analyzing the as-is mapIt is necessary todevelop a to-be map, which may be quite different from the current work practice."
+      },
+      {
+        "value": "C",
+        "label": "The value stream helps to identify when someone did their part of the work.",
+        "explanation": "It is important to know when the customer received or started to receive the value theyexpected."
+      },
+      {
+        "value": "D",
+        "label": "The value stream helps to realize a smooth and uniform flow through all process steps.",
+        "explanation": "The concept of the value stream ensures that a smooth and uniform flow from one step tothe next in the process can be created. (Literature: A 3.1)"
+      },
+      {
+        "value": "E",
+        "label": "The value stream helps to realize local optimization in the current work practice.",
+        "explanation": "It helps to identify and eliminate bottlenecks, while avoiding the local optimization trap."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "Which idea is the origin of the concept 'deployment pipeline'?",
+    "options": [
+      {
+        "value": "A",
+        "label": "A pipeline that carries a liquid creating flow",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept."
+      },
+      {
+        "value": "B",
+        "label": "An assembly line such as a car plant",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept."
+      },
+      {
+        "value": "C",
+        "label": "Modern processors that use parallel pipelining",
+        "explanation": "Humble and Farley clarified that when they coined the term they used the idea of pipeliningfrom modern processors architecture that allows it to produce far faster results. (Literature: A 3.2)"
+      },
+      {
+        "value": "D",
+        "label": "The idea of using more than one assembly line",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept."
+      },
+      {
+        "value": "E",
+        "label": "The process of deploying people to do different jobs",
+        "explanation": "This is a common inaccurate opinion and not the proper meaning of the concept."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "For DevOps, finding the balance between moving quickly and maintaining application reliability is important. How does version control support this?",
+    "options": [
+      {
+        "value": "A",
+        "label": "By allowing any member of the team to freely delete unnecessary files and documents",
+        "explanation": "Version control allows any member of the team to freely delete unnecessary files anddocuments, without the risk of accidental loss of important information or product. (Literature: A 3.3)"
+      },
+      {
+        "value": "B",
+        "label": "By allowing the formation of small independent and self-sufficient development teams",
+        "explanation": "Forming small, self-sufficient and diverse teams is a key idea in DevOps, but it is not theway version control supports agility and reliability of the system."
+      },
+      {
+        "value": "C",
+        "label": "By applying specialized tools to eliminate or reduce waste and optimize processesSample Exam EXIN DevOps Foundation (DEVOPSF.EN) 17",
+        "explanation": "This is a practical application of Lean Production ideas to ITUse specialized tools toidentify waste; then apply other specialized tools to eliminate or reduce waste. However, this is not theway version control supports agility and reliability of the system."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "According to the US National Institute of Standards and technology (NIST), what is not an essential cloud computing characteristic?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Broad network access",
+        "explanation": "Broad network access is one of the essential cloud computing characteristics mentioned bythe US NIST."
+      },
+      {
+        "value": "B",
+        "label": "Pay-per-use system",
+        "explanation": "The pay-per-use system is often used but is not one of the essential cloud computingcharacteristics mentioned by the US NIST. Other types of contracts are possible. (Literature: A 1.1.2)"
+      },
+      {
+        "value": "C",
+        "label": "Rapid elasticity",
+        "explanation": "Rapid elasticity is one of the essential cloud computing characteristic mentioned by the USNIST."
+      },
+      {
+        "value": "D",
+        "label": "Resource pooling",
+        "explanation": "Resource pooling is one of the essential cloud computing characteristic mentioned by theUS NIST.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 18"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "In DevOps, what should be done when process deficiencies are found?",
+    "options": [
+      {
+        "value": "A",
+        "label": "All changes should be submitted to a backlog, so they can be released in a project or a Kaizen event.",
+        "explanation": "A large change event or a Kaizen event may be useful, but regular changes to the processas a part of continuous improvement should be done as quickly as possible."
+      },
+      {
+        "value": "B",
+        "label": "Fixes must be found and implemented as soon as possible after detection of the deficiency.",
+        "explanation": "Not fixing process deficiencies when they have been detected leads to more problems thannecessary. As the literature states that \"DevOps uses a different approach: all identified processdeficiencies should be eliminated immediately.\" (Literature: A 4.1)"
+      },
+      {
+        "value": "C",
+        "label": "Fixes must be found, approved by the change manager, and released based on priority.",
+        "explanation": "There is no change manager and the fixes should be implemented immediately."
+      },
+      {
+        "value": "D",
+        "label": "Fixes must be found, approved by the continuous improvement manager, and released immediately.",
+        "explanation": "There is no continuous improvement manager to approve any fixes."
+      },
+      {
+        "value": "E",
+        "label": "Fixes should be postponed until the change can be included in an appropriate sprint.",
+        "explanation": "Postponing is not a great ideaIt keeps the system inefficient and impacts the worknegatively."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "A value stream map shows clearly where the inefficiencies in a value stream are. Why should a value stream map be made?",
+    "options": [
+      {
+        "value": "A",
+        "label": "To help optimize business processes",
+        "explanation": "This is the reason one should have in mind when creating the value stream map and this iswhere the exercise has the most value. (Literature: A 3.1)"
+      },
+      {
+        "value": "B",
+        "label": "To see which people are not working hard enough",
+        "explanation": "The reason to do a value stream mapping is not to see who is redundant, who should getfired first or who is not pulling their weight. Instead, the processes should be optimized, so that thepeople in the company can start producing higher quantities with higher quality."
+      },
+      {
+        "value": "C",
+        "label": "To speed up the Work-in-Progress (WiP)",
+        "explanation": "Although the process may speed up, the work itself does not necessarily need to speed up.Rather, the work itself may slow down to avoid errors and increase first-time-right, which can save astep of quality control. Speeding up the work is not the goal, eliminating waste and adding more valueto the business is."
+      },
+      {
+        "value": "D",
+        "label": "To visualize which product line should be ended",
+        "explanation": "Although the business may decide to end a business line or a product line based on thevalue stream map, this is never the goal of value stream mapping. Instead, value stream mappingshould only be done for viable products.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 19"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "DevOps relies heavily on the principles and practices of Lean Production. One of the types of waste in IT is 'task switching'. From which original type of waste is this the translation for IT?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Motion",
+        "explanation": "Handoff in IT corresponds to motion in Lean."
+      },
+      {
+        "value": "B",
+        "label": "Overproduction",
+        "explanation": "Extra future in IT corresponds to overproduction in Lean."
+      },
+      {
+        "value": "C",
+        "label": "Transportation",
+        "explanation": "Task switching in IT corresponds to transportation in Lean(Literature: A 2.1.1)"
+      },
+      {
+        "value": "D",
+        "label": "Waiting",
+        "explanation": "Waiting in IT corresponds to waiting in Lean."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "What is an advantage of having a DevOps team work together for a longer period?",
+    "options": [
+      {
+        "value": "A",
+        "label": "The team does not have to improve the process anymore.",
+        "explanation": "DevOps teams are always looking to improveThat is what continuous improvement is for.A team that works together for longer may even feel more confident changing routines and improvingprocesses."
+      },
+      {
+        "value": "B",
+        "label": "The team uses their experience to innovate and improve the process.",
+        "explanation": "DevOps teams that work together longer have the opportunity to use their experience infuture development and to deliver more quickly and innovate the processes. (Literature: A 4.9)"
+      },
+      {
+        "value": "C",
+        "label": "The team will start working more independently.",
+        "explanation": "Working together does not mean that the team works more independentlyThey have theorganizational mission to adhere to for direction. Other than that, they should be self-sufficient fromthe start."
+      },
+      {
+        "value": "D",
+        "label": "There is time left to process unexpected requests more often.",
+        "explanation": "A batch is planned with backlog items according to their priorityProcessing manyunexpected requests should never be a goal in DevOps. The requests should go in the backlog and beprioritized. Only then should they be taken up in the next iteration.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 20"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "It is recommended that organizations customize and select DevOps practices that work in that organization. Organization-specific questions must be raised and organization-specific answers must be found. Why is this a good idea?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Because DevOps publications do not always reflect reality and hide difficulties and failures.",
+        "explanation": "The overwhelming amount of literature does not necessarily prepare the team for allstruggles and failures reality may pose. It is important to filter your information and see what appliesto the organization’s situation most. (Literature: A 5.6)"
+      },
+      {
+        "value": "B",
+        "label": "Because that is the best way to become a DevOps engineer that can be hired for implementingDevOps.",
+        "explanation": "DevOps cannot be 'implemented' and there is no engineer that can be hired to bring the neworder to IT."
+      },
+      {
+        "value": "C",
+        "label": "Because there are too few publications and events about DevOps to form your opinion.",
+        "explanation": "On the contrary, there are many publications and events to help the organization to decide."
+      },
+      {
+        "value": "D",
+        "label": "Because you know best how to implement DevOps in your own organization.",
+        "explanation": "There is no such thing as implementing DevOps."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What is not a reason to keep the Work-in-Progress (WiP) limited?",
+    "options": [
+      {
+        "value": "A",
+        "label": "To decrease loss of productivity",
+        "explanation": "By limiting Work-in-Progress, there is more focus for the team members to work on a singleitem. This helps to stop unnecessary interruptions by task switching and ultimately leads to moreproductivity."
+      },
+      {
+        "value": "B",
+        "label": "To help eliminate constraints",
+        "explanation": "Limiting Work-in-Progress makes it easier to quickly fix errors and optimize the systembetween tasks."
+      },
+      {
+        "value": "C",
+        "label": "To help the rhythm of the flow",
+        "explanation": "This is not one of the benefits of limiting Work-in-Progress(Literature: A 4.4 and 4.5)"
+      },
+      {
+        "value": "D",
+        "label": "To increase resource utilization",
+        "explanation": "By limiting Work-in-Progress, there is more focus for the team members to work on a singleitem. This helps to stop unnecessary interruptions by task switching and ultimately leads to a betteruse of resources.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 21"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "Commercial off-the-shelf software (COTS) is used to quickly get the results needed, because it takes time to develop your own software. What is true about COTS?",
+    "options": [
+      {
+        "value": "A",
+        "label": "COTS should be used to support strategic business lines.",
+        "explanation": "Off-the-shelf software will not automatically support strategic business linesScripting willbe necessary to make that possible (if it is possible at all). It is recommended not to use COTS forstrategic business lines."
+      },
+      {
+        "value": "B",
+        "label": "COTS requires customization and scripting to configure the system.",
+        "explanation": "With scripting it is possible to configure this kind of softwareHowever, there might belimitations and configuring the system still takes time. (Literature: A 5.2)"
+      },
+      {
+        "value": "C",
+        "label": "Using ready to use software is usually much cheaper.",
+        "explanation": "Configuring such software will take time, which means extra effort and extra expensesInaddition, the value the business actually needs may not be delivered."
+      },
+      {
+        "value": "D",
+        "label": "Using ready-to-use software is more flexible.",
+        "explanation": "Commercial off-the-shelf software is always limiting flexibilityIt is not always possible toconfigure it the way you want or need to."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "Which thought is false in Agile?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Business and development work together throughout the project.",
+        "explanation": "\"Business people and developers must work together daily on the project\" is part of theAgile Manifesto."
+      },
+      {
+        "value": "B",
+        "label": "Responding to change is valued over following a plan.",
+        "explanation": "Responding to change over following a plan is part of the Agile Manifesto."
+      },
+      {
+        "value": "C",
+        "label": "Satisfying the customer through exact fulfillment of their requirements is a priority.",
+        "explanation": "Satisfying customers through exact fulfillment of their requirements is not part of the AgileManifesto, and it is not an aim of Agile. (Literature: A 1.1.1)"
+      },
+      {
+        "value": "D",
+        "label": "Working software is the primary measure of progress.",
+        "explanation": "Working software as the primary measure of progress is part of the Agile Manifesto.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 22"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "Configuration management makes it possible to scale IT infrastructure and software systems, without needing more people working on them. How should changes to such a scaled environment ideally be done?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Through continuous integration",
+        "explanation": "Continuous Integration is the second stage in implementing a deployment pipeline, but notthe only way administrators should be allowed to change anything in Production. Ideally this is alldone by automated scripts."
+      },
+      {
+        "value": "B",
+        "label": "Through fully controlled scripts",
+        "explanation": "In fact, it can be argued that even administrators no longer should have rights in Production.They should not be allowed to change anything except through fully controlled (and automated)scripts. (Literature: A 3.3, 3.4)"
+      },
+      {
+        "value": "C",
+        "label": "Through test automation",
+        "explanation": "Test automation is the third stage in implementing a deployment pipeline, but not the onlyway administrators should be allowed to change anything in Production. Ideally this is all done byautomated scripts."
+      },
+      {
+        "value": "D",
+        "label": "Through the deployment pipeline",
+        "explanation": "At an abstract level, a well-working and fully automated deployment pipeline is anautomated manifestation of the process for getting software from version control into the hands ofusers. However, a manual deployment pipeline is possible. It is not a description of the wayadministrators should be allowed to change anything in Production. Ideally this is all done byautomated scripts.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 23"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "A company wants to reduce their time-to-market from years to months. One of their employees says they should consider using DevOps methods in the IT department. Why would changing to DevOps help reduce their time-to-market?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Because DevOps integrates Development and Operations into a single team, there are fewer peopleemployed.",
+        "explanation": "There are usually not fewer, but probably more people employed, because each product orproduct line has their own dedicated self-sufficient team of developers, operators and otherspecialists. In addition, the integration itself does not make DevOps a faster way of developingnecessarily, but makes software more robust when deployed, because Dev understands the needs ofOps better."
+      },
+      {
+        "value": "B",
+        "label": "Because DevOps teams are more expensive, they work more overtime and get a product on themarket quicker.",
+        "explanation": "Although the self-sufficient dedicated teams can be more expensive, DevOps practicesnever rely on structurally working overtime to get things done faster. Quite the opposite is true:DevOps likes to try to find a sustainable pace and rhythm."
+      },
+      {
+        "value": "C",
+        "label": "Because DevOps uses self-sufficient dedicated teams, there is more agility to deal with changingproduct requirements.",
+        "explanation": "Because there is a single dedicated and self-sufficient team working on a single product,there are less distractions and interruptions to the work on that product. In addition, the team does notneed to wait for a specialist. This reduces great amounts of waste in the form of waiting time andhelps the team reduce their time-to-market. (Literature: A 1.3.1)"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "Which significant advantage does DevOps bring to an organization?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Eliminating fragility of the system",
+        "explanation": "\"DevOps is expected to address: reducing time to market, reducing technical debt andeliminating fragility.\" (Literature: A 1.3.3)"
+      },
+      {
+        "value": "B",
+        "label": "Reducing cost for the customer",
+        "explanation": "DevOps practices can be more expensive and there is no focus on reducing the costs forthe customer."
+      },
+      {
+        "value": "C",
+        "label": "Reducing cultural challenges",
+        "explanation": "Although DevOps encourages a diverse team, this does not guarantee a reduction ofcultural challenges.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 24"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What does not help a DevOps team to successfully develop and deliver working software?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Forming a DevOps team for a short period of time during a project",
+        "explanation": "DevOps teams are formed for a longer periodThis gives them the opportunity to use theirexperience in the future to deliver new software quicker and to keep innovating. (Literature: A 4.2)"
+      },
+      {
+        "value": "B",
+        "label": "Identifying, fixing and learning from errors as soon as they are found",
+        "explanation": "When batches are smaller, errors can be found more easily and corrected immediately.DevOps focuses on the Lean process of finding errors fast, fixing them in the process immediatelyand optimizing the process."
+      },
+      {
+        "value": "C",
+        "label": "Organizing DevOps teams around an organizational mission",
+        "explanation": "One of DevOps’s main advantages is that the team adds value to the business by aligningtheir work to a specific organizational goal."
+      },
+      {
+        "value": "D",
+        "label": "Writing code for software to have built-in quality as a main goal",
+        "explanation": "Focusing on built-in quality is a Lean property incorporated by DevOpsWhen one is codingfor quality, it may take longer, but because fewer bugs are found and the system is built to be morerobust, this adds value in the end."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "The most valuable information of a value stream map is taken from three key metrics. What is one of these three key metrics?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Lead time combined with flow",
+        "explanation": "Lead time is a key metric, but flow is not a metricIt is a concept of velocity that can bemeasured by lead time and process time."
+      },
+      {
+        "value": "B",
+        "label": "Percentage complete and accurate",
+        "explanation": "Percent complete and accurate is a key metric of the value stream map that helps to gatherthe most valuable information. (Literature: A 3.1)"
+      },
+      {
+        "value": "C",
+        "label": "Process time divided by lead time",
+        "explanation": "Process time and lead time are both key metrics, but the ratio between them is not a usefulmeasure."
+      },
+      {
+        "value": "D",
+        "label": "Value completed minus waste",
+        "explanation": "Value completed minus waste is not a metricBoth are DevOps concepts, though.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 25"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "A good version control system is one of the highest predictors of high performance in DevOps. What is necessary to apply version control successfully?",
+    "options": [
+      {
+        "value": "A",
+        "label": "A change in the culture of working with information and configuration",
+        "explanation": "Versioning allows for control over all the relevant parts of the system in operation,unattainable with other tools. Version control done well requires a change in the culture of workingwith information and configuration. (Literature: A 3.3)"
+      },
+      {
+        "value": "B",
+        "label": "A significant increase in the speed of change implementation",
+        "explanation": "The degree of automation has increased significantly in the last years due to the use ofvirtual cloud technologies, and so has the speed of the change implementation, but that is not arequired principle for version control."
+      },
+      {
+        "value": "C",
+        "label": "The deliberate introduction of chaos and instability in Production",
+        "explanation": "One of the great practices of DevOps related to anti-fragility is the deliberate introduction ofchaos and instability into the Production environment. This technique is known by various names:Game Day, Chaos Monkey, Simian Army. None of these are required principles for version control."
+      },
+      {
+        "value": "D",
+        "label": "The use of a formalized and automated change management process",
+        "explanation": "To deal with fragility in the IT infrastructure, some organizations use formalized andautomated change management processes designed to structure the flow of changes and minimizethe risks associated with their implementation, but that is not a required principle for version control."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "When can the use of DevOps for organizational and technological changes lead to chaos and loss of control?",
+    "options": [
+      {
+        "value": "A",
+        "label": "When the core business of the organization highly depends on information technology",
+        "explanation": "Organizations (shoulddependent on information technology."
+      },
+      {
+        "value": "B",
+        "label": "When the organization is complex and wants to solve chronic problems",
+        "explanation": "For complex situations, DevOps most likely will not bring much profit and will definitely giveno quick wins. Chronic problems should be solved carefully, thoughtfully and judiciously. One shouldnot just hope that DevOps is a magical cure for all problems. (Literature: A 5.1)"
+      },
+      {
+        "value": "C",
+        "label": "When the organization requires rapid changes to test new business ideas or hypotheses",
+        "explanation": "Organizations (shouldchanges to test new business ideas or hypotheses."
+      },
+      {
+        "value": "D",
+        "label": "When the rate of change in the information technology used by the organization is high",
+        "explanation": "Organizations (shouldthe information technology used, is high.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 26"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "When looking at the emergence of DevOps, new ways of interacting between parties involved in software development triggered a need for new ways of IT management. This resulted in DevOps. Which parties that found new ways to interact are meant?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Business and customers",
+        "explanation": "The business itself may have changed ways of interacting with their customers, but this didnot trigger DevOps per se. DevOps was triggered by the interaction between the IT department and thebusiness (customer)."
+      },
+      {
+        "value": "B",
+        "label": "IT departments and customers",
+        "explanation": "\"First, due to the emergence of new ways of interacting with the business customers, and tothe adequate application of Agile development techniques, a need for new ways of IT managementhas developed.\" New ways are required to interact with customers as per the changes in the marketand in the way people relate with their preferred brands, also adequate application of Agile techniquesimplies a better perceived return on Agile by the business (not just IT). (Literature: A 1.1.3)"
+      },
+      {
+        "value": "C",
+        "label": "IT development and operations",
+        "explanation": "The interaction between internal IT areas is not what triggered the development of DevOps."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "What can cause difficulties when DevOps is adopted?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Cross-functional teams",
+        "explanation": "DevOps teams are cross-functional; having cross-functional teams gives organizations ahead start in DevOps."
+      },
+      {
+        "value": "B",
+        "label": "Limited use of virtualization",
+        "explanation": "Organizations using little virtualization will have difficulties implementing DevOps(Literature:A 5.1)"
+      },
+      {
+        "value": "C",
+        "label": "Microservice architecture",
+        "explanation": "Microservice architecture emerged from a common set of DevOps ideologies givesorganizations a head start in DevOps.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 27"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "According to DevOps practices, what is the best way to increase the level of operational control?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Automating all manual operations",
+        "explanation": "Automating as many operations as possible will give total control, because all operationsbecome instant and uniform. When an operation is suboptimal, changing the automation will alsochange all future operations. (Literature: A 4.1.3)"
+      },
+      {
+        "value": "B",
+        "label": "Defining appropriate roles and responsibilities",
+        "explanation": "Although defining roles and responsibilities is important, it does not directly impact thecontrol over all operations."
+      },
+      {
+        "value": "C",
+        "label": "Designing control procedures",
+        "explanation": "Just designing procedures will not helpOnce the procedures are designed, they should beautomated so no errors are made, and all operations are uniform."
+      },
+      {
+        "value": "D",
+        "label": "Improving operational governance",
+        "explanation": "Although this may be desirable anyway, just governing does not give more control.Automation ensures total control."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "When switching to DevOps, a greater return on information technology is expected. What differentiates DevOps from Agile, Scrum and Lean to meet this expectation?",
+    "options": [
+      {
+        "value": "A",
+        "label": "DevOps accelerates the delivery of new and modified products between Dev and Ops.",
+        "explanation": "Accelerating the delivery of products between departments is a consequence of DevOps.However, since it does not deliver value to the customer, it is not an expected value from DevOps toachieve greater return on IT."
+      },
+      {
+        "value": "B",
+        "label": "DevOps accelerates the delivery of new and modified products to the market and customers.",
+        "explanation": "This is how DevOps will produce greater return on IT; by accelerating the delivery of productsto customers in Production, helping the business realize value faster and better. (Literature: A 1.2)"
+      },
+      {
+        "value": "C",
+        "label": "DevOps ensures a quicker response to changes in the infrastructure within budget.",
+        "explanation": "Changes to the infrastructure are an internal need from IT, also adherence to budgetThebusiness will not get greater returns on IT just from changing the infrastructure."
+      },
+      {
+        "value": "D",
+        "label": "DevOps ensures a quicker response to incidents that hinder the organization’s value stream.",
+        "explanation": "This is not a way to achieve greater return on ITEven though quicker responses willproduce a better user experience, it does not help to produce greater returns on its own.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 28"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "An organization has a legacy IT infrastructure. They want to start with DevOps. What is a common approach in such an organization?",
+    "options": [
+      {
+        "value": "A",
+        "label": "To start implementing DevOps as a software product: install it and start it",
+        "explanation": "DevOps is not a software product that can be installed and started."
+      },
+      {
+        "value": "B",
+        "label": "To start with a basic pipeline that performs at least assembly and initial testing",
+        "explanation": "This is not an approach to start with DevOpsThis is required to proceed with the building ofthe deployment pipeline for the part of the stream that can be automated."
+      },
+      {
+        "value": "C",
+        "label": "To start with a selection of the product with the greatest opportunities for optimization",
+        "explanation": "This is the start of developing the value stream mapping."
+      },
+      {
+        "value": "D",
+        "label": "To start with identifying those systems that are loosely connected with others",
+        "explanation": "DevOps can start anywhere, wherever the business is nowIdentifying loosely connectedsystems is the first step. (Literature: A 5.6)"
+      },
+      {
+        "value": "E",
+        "label": "To start with the allocation of a certain proportion of working time for the improvement",
+        "explanation": "This relates to the technical debt."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "An IT system is still being developed and maintained by many employees as a single entity. What difficulty with adopting DevOps practices can be expected?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Assigning DevOps teams to separate areas of responsibility",
+        "explanation": "A significant obstacle for the implementation of DevOps is a monolithic, rigidly bound ITarchitecture. Introduction of small teams requires the ability to assign a separate area ofresponsibility to each of them. In a situation where the IT system in question is still being developedand maintained by dozens or hundreds of employees as a single entity, it will be difficult to separateparts for individual independent teams that work asynchronously. (Literature: A 5.1)"
+      },
+      {
+        "value": "B",
+        "label": "Creating cross-functional teams to work on the organizational structure",
+        "explanation": "There is no inhibition in the creation of cross-functional teams themselves."
+      },
+      {
+        "value": "C",
+        "label": "Maintaining and versioning multiple APIs for backward compatibility",
+        "explanation": "With a monolithic application, developers only must change the class name and APIWithmicroservices, developers must change the version number of the API and maintain multiple APIs forbackward compatibility. In this case, no microservices have been implemented yet, so this is not anexpected problem. In addition, although it may require a system for versioning, this is not a problem,but progress and an expected result and ultimately benefit of implementing DevOps practices.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 29"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What is the DevOps way of solving incidents?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Escalate to the problem management team and create a solution until they solve the incident",
+        "explanation": "This solution may lead to a working workaround, in which case the real problem may neverget solved."
+      },
+      {
+        "value": "B",
+        "label": "Investigate the incident, run diagnostics, then identify and implement a workaround",
+        "explanation": "Implementing a workaround does not solve the incidentThis is not how one shouldoperate."
+      },
+      {
+        "value": "C",
+        "label": "See if a related incident occurred earlier and implement a similar solution to the problem",
+        "explanation": "The solution is most likely a workaround, which is not desirableOne should not wait untilsomeone else fixes the problem."
+      },
+      {
+        "value": "D",
+        "label": "Trace the incident back to a recent deployment and roll the system back to a previous stable state",
+        "explanation": "According to the literature, \"In case the incident is traced back to a recent deployment, thepipeline control system will automatically roll back to the previous known stable state\". This is whatshould happen, whether this process is automated or still done manually. (Literature: A 4.1)"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "DevOps recommends visualization of the work done. Which two goals can be realized by visualization? Please remember to choose 2 answers.",
+    "options": [
+      {
+        "value": "A",
+        "label": "Building a pull-system",
+        "explanation": "Building a pull-system is a benefit of using visualizationVisualizing allows to build a pullsystem, which in turn: improves the workflow; reduces downtime; reduces the need for coordination.Visualization also helps to identify inefficiencies. (Literature: A 4.3)"
+      },
+      {
+        "value": "B",
+        "label": "Dividing the work",
+        "explanation": "A team can effectively divide the work without visualization."
+      },
+      {
+        "value": "C",
+        "label": "Fostering commitment",
+        "explanation": "Commitment is not fostered by visualization, although it is important for DevOps to besuccessful."
+      },
+      {
+        "value": "D",
+        "label": "Identifying inefficiencies",
+        "explanation": "Visualization also helps to identify inefficiencies(Literature: A 4.3)"
+      },
+      {
+        "value": "E",
+        "label": "Informing the customer",
+        "explanation": "The person acting as Voice of the Customer or Voice of the Business should update thecustomer.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 30"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "A company uses continuous deployment. Whose decision should it be when to release new functionality?",
+    "options": [
+      {
+        "value": "A",
+        "label": "The business",
+        "explanation": "Releasing new functionality to be used becomes a business decision when using continuousdeployment. The functionality may already have been deployed for a time before the business decidesthat it is time to switch the functionality on. The IT department releases in their own tempo, thebusiness decides when to release new functionality. (Literature: A 4.1)"
+      },
+      {
+        "value": "B",
+        "label": "The customer",
+        "explanation": "Although this stakeholder is important for the decision, releases are primary a businessdecision."
+      },
+      {
+        "value": "C",
+        "label": "The IT department",
+        "explanation": "Although this stakeholder is important for the decision, releases are primary a businessdecision."
+      },
+      {
+        "value": "D",
+        "label": "The user",
+        "explanation": "Although this stakeholder is important for the decision, releases are primary a businessdecision."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What are two common practices for reducing technical debt?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Formal change and release management practices",
+        "explanation": "These are two processes that could cause technical debtMoreover, it can be argued thatsome well-known practices offered by ITIL, when applied inexpertly or in isolation, can also lead togrowth of technical debt."
+      },
+      {
+        "value": "B",
+        "label": "Incident management and request fulfilment practices",
+        "explanation": "These are two processes that could cause technical debtMoreover, it can be argued thatsome well-known practices offered by ITIL, when applied inexpertly or in isolation, can also lead togrowth of technical debt."
+      },
+      {
+        "value": "C",
+        "label": "Increasing budget and resources",
+        "explanation": "This will not directly help reduce technical debt, although when there are more developers,technical debt may be reduced faster."
+      },
+      {
+        "value": "D",
+        "label": "Refactoring and facing the issue",
+        "explanation": "According to the literature, two of the commonly used practices are Refactoring and facingthe issue. (Literature: A 1.3)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 31"
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "statement": "When implementing the deployment pipeline, problems are encountered. Initially, there are not enough pre-developed tests to ensure steady operation of the Production environment. Which solution best addresses this problem?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Create the pipeline and as many automations as possible, but do not use them until all the propertests are in place.",
+        "explanation": "Creating the pipeline and not using it until all the tests are in place will take too much time,which loses the business money. An iterative approach should be attempted, with the most importanttests firsts and continuously generating new tests to increase coverage."
+      },
+      {
+        "value": "B",
+        "label": "Increase the coverage of the code with tests as technical debt, which must be addressed as soon aspossible.",
+        "explanation": "Increasing the coverage of the code with tests is the only solution for this problem.(Literature: A 3.2)"
+      },
+      {
+        "value": "C",
+        "label": "Let the pipeline run with the developed tests and deal with the potential issues in Production whenthey arise.",
+        "explanation": "Letting the pipeline run with a small set of tests creates poor testing coverage andpotentially creates many issues in Production. This hinders the adoption of the pipeline and impactsthe business and the DevOps promise to the organization."
+      },
+      {
+        "value": "D",
+        "label": "Use the pipeline as an integration system to deliver the written code to test and quality assurance(QA) only.",
+        "explanation": "The deployment pipeline aims to deliver working code to Production, not just to test and QA,so it will not fit its purpose, nor will it help DevOps to improve what Agile already delivers.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 32"
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "statement": "In traditional practices many things can go wrong with releases: some changes are not documented, the system has not been backed up fully, or there is no previous state of the system saved. How does DevOps ensure frequent releases without these problems?",
+    "options": [
+      {
+        "value": "A",
+        "label": "By automating releases",
+        "explanation": "Automation is an important factor in ensuring that releases are frequent and that the releaseprocess becomes routine. If all human factors of backing up, documenting and rolling back areautomated, the chances of problems with releasing diminish dramatically. If a release cannot beimplemented successfully, the system will alert the team to act. (Literature: A 4.1)"
+      },
+      {
+        "value": "B",
+        "label": "By letting Operations release",
+        "explanation": "Giving Operations control does not prevent the mentioned problemsLooking at Operationsand integrating Development into their practices may shed light on which parts of the release processneed automating and standardization. Just handing over releasing to Operations will not solve theproblems mentioned."
+      },
+      {
+        "value": "C",
+        "label": "By making releases very small",
+        "explanation": "The size of the release does not matter as much as the automation to make the routinereleases work. The smaller releases will not necessarily prevent any of the problems mentioned.Releasing frequently will make the releases smaller."
+      },
+      {
+        "value": "D",
+        "label": "By not documenting all changes",
+        "explanation": "This will make the problems worseIntroducing a versioning system, preferably automated,will help eliminate the problems caused by improper documentation."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "What is the first step in value stream mapping?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Create the requirements specification",
+        "explanation": "This is the first key step in the process of the example value stream map in the literatureItis not the first step in value stream mapping in general. Not all value stream maps will include arequirements specification. This entirely depends on the processes and organization for which thevalue stream map is created. The first step should be to identify key steps for your particular processand organization."
+      },
+      {
+        "value": "B",
+        "label": "Document the work done",
+        "explanation": "Documentation of the work done should be done only after identifying the key stepsWorkdone on non-essential steps is not part of the value stream map."
+      },
+      {
+        "value": "C",
+        "label": "Identify the key steps in the process",
+        "explanation": "This should be the first step when value stream mappingThe organization should look at theprocess for which they want to create a value stream map and identify the key steps where work isdone and value is added. (Literature: A 3.1)Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 33"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "What is a difficulty of a rigid or monolithic IT architecture?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Changing and developing the IT architecture itself is difficult to do",
+        "explanation": "This is a problem of a rigid IT architectureThe larger and more rigid the architecture, themore difficult it becomes to change anything, whilst still seeing what that change does to the rest ofthe architecture. (Literature: A 5.3)"
+      },
+      {
+        "value": "B",
+        "label": "Modifying services within the architecture is done independently",
+        "explanation": "This is a solution of the problemWhen all services can be modified independently, thearchitecture is no longer rigid."
+      },
+      {
+        "value": "C",
+        "label": "Updating to a new version without disabling the current version",
+        "explanation": "This can be a challenge even when the architecture is not rigid."
+      },
+      {
+        "value": "D",
+        "label": "Waiting for all components to be ready for a large-scale migration",
+        "explanation": "It is not necessarily rigid when a large-scale migration is done and all components shouldbe made ready for that. This could happen in any type of IT architecture."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "The team works in one-week iterations and frequently encounters bottlenecks. What is the best reaction of the team after they identify a bottleneck?",
+    "options": [
+      {
+        "value": "A",
+        "label": "Eliminate the bottleneck as soon as possible",
+        "explanation": "Finding ways to eliminate the cause of the bottlenecks should be done as fast as possible.When the bottleneck is eliminated, the work could even get done in the iteration it was promised,although this is not common. The Product Owner can prioritize work for the current iteration.(Literature: A 4.11)"
+      },
+      {
+        "value": "B",
+        "label": "Lengthen the iteration in which a bottleneck is found",
+        "explanation": "In this case, that is not the best way of dealing with the problemScrum allows occasionalextensions of the iteration length. However, in DevOps there is even more focus on establishingrhythm than in Scrum. Therefore, one should only extend the iteration as a last resort."
+      },
+      {
+        "value": "C",
+        "label": "Limit the regular number of tasks in a batch",
+        "explanation": "Limiting the batch size helps to identify the problems causing the bottlenecksIt should beimplemented as part of DevOps practices, though. It should not only be implemented after the teamhas identified a bottleneck."
+      },
+      {
+        "value": "D",
+        "label": "Use visualization tools along with WiP-limits",
+        "explanation": "This helps to identify bottlenecks, but it should not be implemented after the team hasidentified a bottleneck.Sample Exam EXIN DevOps Foundation (DEVOPSF.EN) 34"
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "statement": "Sometimes, it is thought that DevOps is a part of Agile. To which question does DevOps give an answer, that has nothing to do with Agile?",
+    "options": [
+      {
+        "value": "A",
+        "label": "What can be done to release the software we develop quick enough to take a large market share?",
+        "explanation": "The release of a product is both part of Agile and DevOpsAgile helps to quickly releasefunctioning parts of the final product. DevOps further explores ways of delivering real value to actualcustomers better."
+      },
+      {
+        "value": "B",
+        "label": "What relationship with our customers is necessary, so that we understand their requirements better?",
+        "explanation": "The relationship with the customer and the requirement gathering are both part of Agile andDevOps. Product Owners will maintain close contact with the customer to ensure value is being addedto the product."
+      },
+      {
+        "value": "C",
+        "label": "What should be done with a released product to make it useful and easy to operate?",
+        "explanation": "Thinking about the release and operate phases during development are not necessarily partof Agile, but they are an essential part of DevOps. (Literature: A 1.5.1)"
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "statement": "What benefit does configuration management have?",
+    "options": [
+      {
+        "value": "A",
+        "label": "It allows any team member to delete unwanted files without risk.",
+        "explanation": "It is version management that allows any team member to freely delete informationIfanything goes wrong, the previous version can be restored."
+      },
+      {
+        "value": "B",
+        "label": "It allows key team members to be absent without problems.",
+        "explanation": "When all changes are controlled by configuration management, the system is automaticallyrestored to a previous stable state if necessary. In addition, if key team members leave, theirknowledge is not lost, but solidified in the configuration. (Literature: A 3.4)"
+      },
+      {
+        "value": "C",
+        "label": "It allows team members to see who changed which code at what date.",
+        "explanation": "The records of what was changed when and by whom are part of version control and not ofconfiguration management."
+      }
+    ],
+    "correctAnswer": "B"
+  }
+]
